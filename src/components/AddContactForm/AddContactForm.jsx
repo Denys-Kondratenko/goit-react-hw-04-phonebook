@@ -76,5 +76,4 @@ export const AddContactForm = ({ onSave, contactsName }) => {
 AddContactForm.propTypes = {
   onSave: PropTypes.func.isRequired,
   contactsName: PropTypes.arrayOf(PropTypes.string).isRequired,
-  alertMessage: PropTypes.func.isRequired,
 };
